@@ -1,9 +1,9 @@
-# Adverts.ie Free Stuff Monitor 🚀
+# Adverts.ie Free Stuff Monitor
 
 This is a Selenium WebDriver automation project built with Java and Maven.  
 It monitors the **Free Stuff → Music Instruments & Equipment** category on [Adverts.ie](https://www.adverts.ie/), detects newly posted ads, and automatically requests available items.
 
-## 📚 Technologies Used
+## Technologies Used
 
 - Java
 - Maven
@@ -11,14 +11,14 @@ It monitors the **Free Stuff → Music Instruments & Equipment** category on [Ad
 - JUnit 5
 - Page Object Model (POM) Design Pattern
 
-## 🛠 Project Structure
+## POM based structure
 
 - `BaseTest.java` → Initializes and manages WebDriver setup and teardown.
 - `pages/` → Contains Page Object Model classes for LoginPage, FreeStuffPage, MusicInstrumentsPage, and ItemPage.
 - `tests/TestPage.java` → Contains 3 professional test cases.
 - `pom.xml` → Maven dependencies and configuration.
 
-## ✅ Features
+## Features
 
 - **Login Automation**: Automatically logs into the website before tests.
 - **Category Navigation**: Navigates to the correct sub-category under "Free Stuff."
@@ -29,7 +29,7 @@ It monitors the **Free Stuff → Music Instruments & Equipment** category on [Ad
   - Ensures the new item is posted less than 1 hour ago.
   - Confirms the item has been requested (by checking the comment section).
 
-## 🧪 Test Cases
+## Test Cases
 
 1. **Category Verification**:  
    Verify that the user is in "Free Stuff → Music Instruments & Equipment".
@@ -40,9 +40,3 @@ It monitors the **Free Stuff → Music Instruments & Equipment** category on [Ad
 3. **Request Confirmation**:  
    Verify that the item has been successfully requested (comment confirmation).
 
-## 🚀 How to Run
-
-1. Clone the project:
-
-   ```bash
-   git clone https://github.com/sebapc/adverts-monitor.git
