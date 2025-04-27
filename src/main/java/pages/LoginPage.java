@@ -12,8 +12,8 @@ public class LoginPage {
     private By loginButton = By.xpath("//button[contains(text(),'Sign In')]");
 
     // TODO: Insert your credentials
-    private String username = "XXXXXXX";
-    private String password = "YYYYYYY";
+    private String username = "username"; //insert username
+    private String password = "pws"; // inesrt password
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
